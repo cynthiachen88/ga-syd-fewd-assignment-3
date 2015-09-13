@@ -1,0 +1,247 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     background: #E8E8E8;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+body {
+    font-family: 'open sans';
+}
+
+header {
+     background: #033048;   
+     height: 150px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #eee;
+    float: left;
+    margin-left: 70px;
+    padding: 10px;
+}
+
+#navigation {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.readmore {
+    font-weight: 600;
+    text-align: right;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.readmore a {
+     text-decoration: none;
+     color: #033048;   
+}
+
+#navigation a {
+    color: #f9e42e;
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+    float: left;
+    margin-left: 90px;
+    margin-top: 55px;
+}
+
+
+#middle {
+    width: 100%;
+    display: inline-block;
+}
+
+
+#content {
+    width: 600px;
+    text-align: left;
+}    
+
+h2 {
+     font-size: 40px;
+     font-weight: 600;
+}
+
+#content {
+    margin-left: 70px;    
+}
+
+#categories h3 {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+#categories nav a {
+    font-size: 12px;
+    font-weight: 300;
+    color: #606161;
+    text-decoration: none;
+}
+
+#categories li {
+    margin-left: -30px;
+}
+
+#about h3 {
+    font-size: 16px;
+    font-weight: 800;
+}
+    
+#about p {
+        font-size: 12px;
+        font-weight: 300;
+        margin: 0;
+}
+
+#about a {
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#article {
+     width: 30%;   
+}
+
+#rhs {
+    width: calc(46% - 215px);
+    float: right;
+    margin-right: 50px;
+    
+}
+
+aside img {
+    padding-top: 50px;   
+}
+
+
+
+#signup {
+     background: #f9e42e;
+     height: 80px;
+     clear: both;
+}
+
+#signup a {
+    clear: both;
+    color: #eee;
+    font-size: 12px;
+    font-weight: bold;  
+    border: 1px #033048;
+    border-radius: 5px;
+    background: #033048;
+    height: 25px;
+    width: 140px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    margin-top: 28px;
+    margin-left: 415px;
+}
+
+
+
+
+footer {
+    background: #121212;
+    text-align: center;   
+    color: #fff;
+    height: 250px;
+ }
+
+
+footer h5{
+    font-size: 24px;   
+    color: #f9e42e;
+    margin-top: 0;
+    font-weight: 800;
+    padding-top: 40px;
+}
+
+ 
+#social img {
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+
+
