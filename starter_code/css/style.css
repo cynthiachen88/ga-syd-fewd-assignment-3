@@ -10,47 +10,57 @@ Developer @GA in NYC
 /* SETUP
 /*******************************************/
 
+
 /* Box Model Hack */
+
 * {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+    -moz-box-sizing: border-box;
+    /* Firexfox */
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box;
+    /* IE */
 }
 
+
 /* Clear fix hack */
+
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
 }
 
 .clear {
-  clear: both;
+    clear: both;
 }
 
 .alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+    float: right;
+    padding: 0 0 10px 10px;
+    /* note the padding around a right floated image */
 }
 
 .alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+    float: left;
+    padding: 0 10px 10px 0;
+    /* note the padding around a left floated image */
 }
+
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: #E8E8E8;
+    color: #000;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: Helvetica, Arial, sans-serif;
+    background: #E8E8E8;
 }
 
 
@@ -58,33 +68,30 @@ body {
 /* LAYOUT
 /*******************************************/
 
+
 /* Center the container */
+
 #container {
-  width: 960px;
-  margin: auto;
+    width: 960px;
+    margin: auto;
 }
 
-header {
+header {}
 
-}
+footer {}
 
-footer {
-
-}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
 
 body {
     font-family: 'open sans';
 }
 
 header {
-     background: #033048;   
-     height: 150px;
+    background: #033048;
+    height: 150px;
 }
 
 h1 {
@@ -98,7 +105,7 @@ h1 {
 
 #navigation {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .readmore {
@@ -109,8 +116,9 @@ h1 {
 }
 
 .readmore a {
-     text-decoration: none;
-     color: #033048;   
+    font-size: 24px;
+    text-decoration: none;
+    color: #033048;
 }
 
 #navigation a {
@@ -123,34 +131,36 @@ h1 {
     margin-top: 55px;
 }
 
-
 #middle {
     width: 100%;
     display: inline-block;
+    padding-right: 50px
 }
-
 
 #content {
     width: 600px;
     text-align: left;
-}    
+    margin-left: 60px;
+    font-size: 24px;
+    font-weight: 300px;
+}
 
 h2 {
-     font-size: 40px;
-     font-weight: 600;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 60px;
 }
 
-#content {
-    margin-left: 70px;    
+#categories {
+     padding-bottom: 25px;   
 }
-
 #categories h3 {
-    font-size: 16px;
+    font-size: 32px;
     font-weight: 800;
 }
 
 #categories nav a {
-    font-size: 12px;
+    font-size: 24px;
     font-weight: 300;
     color: #606161;
     text-decoration: none;
@@ -161,50 +171,47 @@ h2 {
 }
 
 #about h3 {
-    font-size: 16px;
+    font-size: 32px;
     font-weight: 800;
 }
-    
+
 #about p {
-        font-size: 12px;
-        font-weight: 300;
-        margin: 0;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0;
 }
 
 #about a {
     font-size: 22px;
     font-weight: 600;
     text-decoration: none;
-}
-
-#article {
-     width: 30%;   
+    color: #033048;
 }
 
 #rhs {
     width: calc(46% - 215px);
     float: right;
-    margin-right: 50px;
-    
+    margin-right: 30px;
+    margin-top: -2530px;
 }
 
 aside img {
-    padding-top: 50px;   
+    padding-top: 50px;
 }
 
 
-
 #signup {
-     background: #f9e42e;
-     height: 80px;
-     clear: both;
+    margin-top: 100px;
+    background: #f9e42e;
+    height: 80px;
+    clear: both;
 }
 
 #signup a {
     clear: both;
     color: #eee;
     font-size: 12px;
-    font-weight: bold;  
+    font-weight: bold;
     border: 1px #033048;
     border-radius: 5px;
     background: #033048;
@@ -218,30 +225,22 @@ aside img {
     margin-left: 415px;
 }
 
-
-
-
 footer {
     background: #121212;
-    text-align: center;   
+    text-align: center;
     color: #fff;
     height: 250px;
- }
+}
 
-
-footer h5{
-    font-size: 24px;   
+footer h5 {
+    font-size: 24px;
     color: #f9e42e;
     margin-top: 0;
     font-weight: 800;
     padding-top: 40px;
 }
 
- 
 #social img {
     padding: 15px;
     margin-bottom: 40px;
 }
-
-
-
